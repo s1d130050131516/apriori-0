@@ -11,7 +11,7 @@ public class Apriori {
 		System.out.println("Enter transactions separated by new line and items separated by spaces:");
 
 		ArrayList<ArrayList<String>> transactions = new ArrayList<ArrayList<String>>();
-		ArrayList<ArrayList<String>> _transactions = new ArrayList<ArrayList<String>>();
+		ArrayList<ArrayList<String>> _transactions = new ArrayList<ArrayList<String>>(); // Possible duplicate?
 
 		ArrayList<ArrayList<String>> prevItemSetsWithMinSupportCount = new ArrayList<ArrayList<String>>();
 
